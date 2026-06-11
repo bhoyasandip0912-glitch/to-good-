@@ -199,6 +199,9 @@ body{
     margin-top: 3vw;
     
 }
+.play{
+    display: none;
+}
 .video-container .play{
     padding: 9.5vw 7.2vw;
     background-color: black;
