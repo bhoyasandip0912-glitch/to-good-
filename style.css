@@ -12,9 +12,11 @@
 html,body{
     height: 100%;
     width: 100%;
+
 }
 body{
     background-color: #f7f7f7;
+    overflow-x: hidden;
 }
 .nav{
     /* height: 100px; */
@@ -199,6 +201,19 @@ body{
     margin-top: 3vw;
     
 }
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+
+}
+.nav .icons{
+    display: flex;
+    margin: 0px 5px;
+}
+.links{
+    display: none;
+}
 .play{
     display: none;
 }
@@ -227,7 +242,7 @@ body{
     padding: 5vw 3vw;
     flex-direction: column;
     justify-content: space-between;
-    
+    overflow-x: hidden;
     
 }
 .page2 .elem{
@@ -238,6 +253,16 @@ body{
     margin-bottom: 3vw;
 
 }
-
+.page3{
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+.child{
+    padding: 50px;
+}
+#child4{
+    padding: 80px;
+}
 }
  
