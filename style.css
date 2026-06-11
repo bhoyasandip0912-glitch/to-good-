@@ -22,7 +22,7 @@ body{
     /* height: 100px; */
     width: 100%;
     /* background-color: burlywood; */
-    position: fixed;
+    /* position: fixed;            --this change was made by my self iske vajah se ab nav dikh nahi rahi he; */
     z-index:99;
     display: flex;
     align-items: flex-start;
